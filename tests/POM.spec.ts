@@ -1,8 +1,8 @@
 import {test} from "@playwright/test";
 import LandingPage from "./pages/landingPage";
 import IrregularHours from "./pages/irregularHoursPage"
-import irregularHours_content from "./content/irregularHoursPage_content";
 import LeaveYearDate from "./pages/leaveYearDate";
+import HolidayBased from "./pages/holidayBased";
 
 test(`Page object model happy path for second test`, async ({ page }): Promise<void> => {
     const landingPage: LandingPage = new LandingPage();
@@ -15,4 +15,7 @@ test(`Page object model happy path for second test`, async ({ page }): Promise<v
     await leaveYearDate.checkPageLoads(page);
     await leaveYearDate.fillBoxes(page);
     await leaveYearDate.continueOn(page);
+    const holidayBased: HolidayBased = new HolidayBased();
+    await holidayBased.choseOption(page);
+    await holidayBased.continueOn(page);
 });
