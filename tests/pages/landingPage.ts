@@ -20,6 +20,7 @@ class LandingPage {
         await Promise.all([
             expect(page.locator(this.title)).toHaveText(landingPage_content.pageTitle),
             // Continue checking the elements after adding them to the content file!
+            // test
         ]);
     }
     
