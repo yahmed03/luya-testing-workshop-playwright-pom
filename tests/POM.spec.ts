@@ -5,6 +5,7 @@ import LeaveYearDate from "./pages/leaveYearDate";
 import HolidayBased from "./pages/holidayBased";
 import WorkOutHoldiay from "./pages/workOutHoliday";
 import DaysWorked from "./pages/daysWorked";
+import FinalPageCheck from "./pages/finalPageCheck";
 
 
 test(`Page object model happy path for second test`, async ({ page }): Promise<void> => {
@@ -29,5 +30,7 @@ test(`Page object model happy path for second test`, async ({ page }): Promise<v
     await daysWorked.checkPageLoads(page);
     await daysWorked.fillBox(page);
     await daysWorked.continueOn(page);
+    const finalPageCheck: FinalPageCheck = new FinalPageCheck();
+    await finalPageCheck.checkPageLoads(page);
     
 });

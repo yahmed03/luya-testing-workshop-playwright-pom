@@ -9,7 +9,7 @@ class DaysWorked {
 
     constructor() {
         this.title = '.govuk-caption-l'
-        this.subTitle = '.govuk-fieldset__heading'
+        this.subTitle = '.govuk-label--l'
         this.text = '.govuk-hint'
     }
 
@@ -27,7 +27,7 @@ class DaysWorked {
     }
 
    async fillBox(page: Page): Promise<void> {
-    await page.getByLabel('').fill('4.5')
+    await page.locator('#response').fill('4.5');
    }
 
     async continueOn(page: Page): Promise<void> {
