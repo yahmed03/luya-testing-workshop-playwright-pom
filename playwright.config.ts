@@ -17,7 +17,10 @@ module.exports = defineConfig({
 
   workers: process.env.FUNCTIONAL_TESTS_WORKERS ? 5 : 5,
   // The number of tests that can run in parallel
-  reporter: process.env.CI ? "html" : "html",
+  reporter: [
+    ['html'],
+    ['allure-playwright']
+  ],
   // How the tests will be reported, see playwright.dev reporters for more.
 
   use: {

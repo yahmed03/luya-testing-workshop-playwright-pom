@@ -1,0 +1,7 @@
+"DESCRIPTION","DURATION IN MS","NAME","PARENT SUITE","START TIME","STATUS","STOP TIME","SUB SUITE","SUITE","TEST CLASS","TEST METHOD"
+"Tests the happy path for calculating holiday entitlement for a full year","1804","Page object model happy path for second test","MobileSafari","Wed Oct 01 14:31:28 BST 2025","passed","Wed Oct 01 14:31:30 BST 2025","","POM.spec.ts","",""
+"Tests the happy path for calculating holiday entitlement for a full year","1804","Page object model happy path for second test","webkit","Wed Oct 01 14:31:28 BST 2025","passed","Wed Oct 01 14:31:30 BST 2025","","POM.spec.ts","",""
+"Tests the happy path for calculating holiday entitlement for a full year","1722","Page object model happy path for second test","MicrosoftEdge","Wed Oct 01 14:31:32 BST 2025","passed","Wed Oct 01 14:31:33 BST 2025","","POM.spec.ts","",""
+"Tests the happy path for calculating holiday entitlement for a full year","1775","Page object model happy path for second test","MobileChrome","Wed Oct 01 14:31:28 BST 2025","passed","Wed Oct 01 14:31:30 BST 2025","","POM.spec.ts","",""
+"Tests the happy path for calculating holiday entitlement for a full year","2601","Page object model happy path for second test","chromium","Wed Oct 01 14:31:28 BST 2025","passed","Wed Oct 01 14:31:31 BST 2025","","POM.spec.ts","",""
+"Tests the happy path for calculating holiday entitlement for a full year","2478","Page object model happy path for second test","firefox","Wed Oct 01 14:31:28 BST 2025","passed","Wed Oct 01 14:31:31 BST 2025","","POM.spec.ts","",""
